@@ -1,3 +1,10 @@
+import {footer} from "../components/navbar.js"
+
+let ft= document.getElementById("footer")
+
+ft.innerHTML=navbar()
+
+
 let date = new Date();
 console.log(date);
 
